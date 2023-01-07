@@ -1,0 +1,11 @@
+# THINGS TO REMEMBER ABOUT VARIABLE SCCOPE
+- assignment operators like += does not mutate a variable
+- b += 10 think of as b(name) is set to b(value) + 10
+- numbers are inmutable
+- methods are self-enclosed meaning they have their own scope
+- local variables within method def are not visible outside of method def
+- local variables initialized outside method def cannot be accessed within methods
+- strings are mutable and in particular if the methods being used are desctructive
+- Local variables initialized inside the method definition are not visible outside the method definition, and local variables initialized outside the method definition are not visible inside the method definition.
+- method invocation with a block has more open scope meaning that the block can use and modify local variables
+- however if method inovcation with a block is within a method def then the same rules apply as before inside variables will not be able touch outside, outside variables wont be able to touch inside variables
