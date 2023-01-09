@@ -15,7 +15,7 @@ loop do
     launchschool_print
     break
   elsif $amount < 3
-    puts "Thats not enough lines."
+    puts ">> Thats not enough lines."
   end
 end
 
